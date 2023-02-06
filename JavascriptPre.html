@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+//   Ques1 :- Javascript Program to check Odd and Even Number
+
+    // let number=prompt('Give The number to check');
+  
+    // if(number%2==0){
+    //     document.write("Ohh You Provide the Even Number ");
+    // }
+    // else{
+    //     document.write("Ohh You Provide The Odd Number")
+    // }
+
+
+
+
+
+    // Ques2:-Javascript Program to convert Temperature from celcius to farenheight
+
+    // let temp=prompt("Please Provide the temperature You want to convert");
+
+    // var celcius=temp*1.8+32;
+    // document.write("Your temperature in Farenheight is =",+celcius);
+    
+
+
+
+
+
+
+    // Ques3:-Javascript Program to find largest among three numbers
+     
+    // let a=prompt("Give The First Number");
+    // let b=prompt("Give the Second Number");
+    // let c=prompt("Give the Third Number");
+    // if(a>b&&a>c){
+    //     document.write("Largest Number is = ", +a);
+    // }
+    // if(b>a&&b>c){
+    //     document.write("Largest Number is = ",  +b);
+    // }
+    // else{
+    //     document.write("Largest Number is = ", +c);
+    // }
+
+
+
+
+    // Ques4:- Javascript Program to print a multiplication table for a number 
+
+    // let number=prompt("Give the number to get multiplication table ");
+
+    // for(let i=1;i<=10;i++){
+    //     let result=number*i;
+    //     document.write(result);
+    //     document.write("<br>");
+    // }
+
+
+
+
+    // Ques5:- Javascript Program to check whether a number is prime number or not
+    // let number=prompt("Give The number to check for prime");
+    // let flag=0;
+    // if(number<2){
+    //    document.write("Number is prime");
+    // }
+
+    // for(let i=2;i<=number/2;i++){
+    //     if(number%i==0){
+    //         flag=1;
+    //         break;
+    //     }
+    // }
+    // if(flag==1){
+    //     document.write("Given Number is not Prime");
+    // }
+    // else{
+    //     document.write("Given Number is prime");
+    // }
+
+    
+
+
+
+
+    // Practice More 
+    // Ques1:- Javascript Program To Print Factorial of a number;
+    // let num=prompt("give number");
+    // let result=1;
+    // for(let i=num;i>=1;i--){
+    //     result=result*i;
+    // }
+    // document.write(result);
+
+
+
+
+
+
+    // Ques2 :- Javascript Program to find fibonacci series of a number;
+    // let n=prompt("give the number to genrate");
+    //  function fib(n){
+    //     if(n==0||n==1){
+    //         return 0;
+    //     }
+    //     else{
+    //         return fib(n-1)+fib(n-2);
+    //     }
+    //  }
+     
+    //  let result=fib(n);
+    //  document.write(result);
+
+    // Problem in this Questions
+
+
+
+
+
+
+
+
+    
+
+// Ques3:-Javascript program to check palindrome
+
+    // let result= String(prompt("Enter String "))  
+    // let l=0;
+    // let r=result.length-1;
+    // let flag=0;
+    // while(l<=r){
+    //     if(result[l]!=result[r]){
+    //       flag=1;
+    //       break;
+    //     }
+    //     l++;
+    //     r--;
+    // }
+    // if(flag==0){
+    //     document.write("Given String is Palindrome")
+    // }
+    // else{
+    //     document.write("Given String is Not Palindrome")
+    // }
+
+
+
+
+    
+
+    // Ques4:- Javascript Program to Print Frequency of character in string
+
+    // let result=prompt("Give the string ")
+    // let obj={};
+    // for(let i=0;i<result.length;i++){
+    //     if(obj[result[i]]==undefined){
+    //         obj[result[i]]=1
+    //     }
+    //     else{
+    //         obj[result[i]]++;
+    //     }
+    // } 
+
+    // console.log(obj);
+
+    // is there any other way to print frequency on web page directly instead of console
+
+
+
+
+
+
+    //Ques5:- Javascript Program to Sort the elements of array without using sort function
+
+    // let array=[7,5,2,9,10,4,6,8,87,34,45,43,23]
+    // for(let i=0;i<array.length;i++){
+    //     for(let j=0;j<array.length;j++){
+    //        if(array[j]>array[j+1]){
+    //         let temp=array[j];
+    //         array[j]=array[j+1];
+    //         array[j+1]=temp;
+    //        }
+    //     }
+    // }
+    // document.write(array);
+
+
+
+
+    // Assignment 3
+
+    // Ques1:- Find the number of days between two days
+
+    // let firstdate=prompt("Give The First Date");
+    // let seconddate=prompt("Give the second date");
+    // let count=0;
+    // for(let i=firstdate;i<seconddate;i++){
+    //     count++;
+    // }
+    // document.write("Number Of days Between Two Days =",+ count);
+
+
+
+
+    // Ques2:-Javascript Program to find missing number in array of 1 to 100
+
+    // let array=[2,4,5,6,7]
+    // let total_sum=0;
+    // let sumof_n_natural_number=21;
+    // for(let i=0;i<array.length;i++){
+    //     total_sum=total_sum+array[i];
+    // }
+    
+    // let missing_number=total_sum-sumof_n_natural_number;
+    // document.write("Missing number is =")
+    // document.write(missing_number);
+
+
+
+
+
+    // Ques3:-Reverse a string using recurssion in javascript
+
+    // let str=prompt("Give the string to Reverse")
+   
+    // for(let i=str.length-1;i>=0;i--){
+    //      document.write(str[i]);
+    // }
+
+    // not able to do it with recurssion
+
+
+    // Ques:-4. JavaScript program to create an object Student with 3 keys (name, id, city) and give them values. 
+
+    // let student={
+    //     name:"satish",
+    //     id:"10",
+    //     city:"Patna"
+
+    // }
+
+    // if(student.name){
+    //     document.write("Yes Key Name Present in object");
+    // }
+    // else{
+    //     document.write("Not present in object");
+    // }
+
+    // console.log(student)
+
+    // not able to chnage the key name
+
+   
+
+
+// Ques5:-Cumulative sum of array
+
+// let array=[1,2,3,4]
+// for(let i=0;i<array.length-1;i++){
+
+//     let csum=array[i]+array[i+1];
+//     document.write(csum);
+// }
+
+// Not able to find cumulative sum approaches
+
+   
+    
+
+
+
+//Ques6:-Sorting techniques
+//  iii bubble sort
+
+
+// let array=[7,5,2,9,10,4,6,8,87,34,45,43,23]
+//     for(let i=0;i<array.length;i++){
+//         for(let j=0;j<array.length;j++){
+//            if(array[j]>array[j+1]){
+//             let temp=array[j];
+//             array[j]=array[j+1];
+//             array[j+1]=temp;
+//            }
+//         }
+//     }
+//     document.write(array);
+
+
+
+
+    </script>
+    
+</body>
+</html>
